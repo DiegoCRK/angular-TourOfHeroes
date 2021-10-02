@@ -10,6 +10,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports: [BrowserModule, CommonModule, RouterModule, FormsModule, AppRoutingModule ],
@@ -18,7 +19,8 @@ import { RouterModule } from '@angular/router';
     HelloComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   bootstrap: [AppComponent],
 })
